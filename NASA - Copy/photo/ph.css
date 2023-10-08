@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    color: white;
+}
+a:visited{
+    color:white;
+}
+section{
+    height:100vh;
+    display:flex
+    justify-content:center;
+    align-items:center;
+}
+
+#oceanpara{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:white;
+    margin-left: 5px;
+}
+#white{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 5px;
+}
+
+.bg1{
+    background-image: url(p1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg2{
+    background-image: url(ph2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.bg4{
+    background-image: url(ph4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#ph3{
+    margin-left: 20px;
+}

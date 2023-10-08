@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a:visited{
+    color:#090c10;
+}
+
+section{
+    height:100vh;
+    display:flex
+    justify-content:center;
+    align-items:center;
+}
+
+body{
+    background-image: url(ocean.mp4);
+}
+
+h1{
+    font-size: 70px;
+    font-family: Roboto;
+}
+
+h2{
+    font-family: Roboto;
+}
+
+.container{
+    text-align: center;
+}
+
+#top{
+    color: white ;
+}
+
+#center{
+    color: white ;
+    text-align: center;
+    padding: 20px;
+}
+
+#ccenter{
+    color:black ;
+    text-align: center;
+    padding: 40px;
+}
+
+#roundbb{
+    color:white;    
+    background:transparent;
+    border-radius: 3%;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+    font-size: 21px;
+    border:3px solid white;
+    cursor: pointer;
+    padding: 14px 70px;
+    margin-top: 370px;
+
+}
+#croundbb{
+    color:white;    
+    background:transparent;
+    border-radius: 3%;
+    transition-duration: 0.4s;
+    padding: 10px 24px;
+    font-size: 21px;
+    border:3px solid white;
+    cursor: pointer;
+    padding: 14px 70px;
+    margin-top: 320px;
+
+}
+
+#navbtn{
+    color:white;    
+    background:transparent;
+    border-radius: 4%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#navbtn:hover{
+    background-color:white;
+    color:#090c10;
+    border:3px solid black;
+    cursor: pointer;
+}
+#navbtn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+#roundbb:hover {
+    background-color:white;
+    color:#090c10;
+    font-size: 21px;
+    border:3px solid white;
+    cursor: pointer;
+  }
+
+#roundbb:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#croundbb:hover {
+    background-color:white;
+    color:#090c10;
+  }
+
+#croundbb:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.bgvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.one{
+    background-image: url(oceangarden.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.two{
+    background-image: url(ocean.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.three{
+    background-image: url(oceanlife.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+.four{
+    background-image: url(phytoplankton.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+.five{
+    background-image: url(FP.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+nav{
+    font-family: Roboto;
+    margin-top: 0px;
+    flex: 1;
+    margin-left: 330px;
+}
+
+nav ul li {
+    list-style:none;
+    display:inline-block;
+    margin-left: 50px; 
+    font-weight: bold;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30;
+    
+}
+
+#oceanpara{
+    font-size: 25px;
+}
